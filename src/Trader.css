@@ -1,0 +1,16 @@
+.trader-side {
+  background: linear-gradient(
+    180deg,
+    rgba(219, 255, 227, 0.1) 1.36%,
+    rgba(213, 253, 229, 0.6) 8.44%,
+    #80e1ff 21.03%
+  );
+  height: 1912px;
+  padding-top: 350px;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+.title-trader {
+  font-size: 96px;
+}

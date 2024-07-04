@@ -1,0 +1,11 @@
+.signals-side {
+  padding-top: 250px;
+  padding-left: 100px;
+  height: 1498px;
+  background: linear-gradient(180deg, #81e1ff 0%, #dbffe3 100%);
+  font-weight: 600;
+}
+
+.title-signals {
+  font-size: 96px;
+}

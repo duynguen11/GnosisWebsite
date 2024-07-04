@@ -1,0 +1,22 @@
+.navbar-bg {
+  background-color: black;
+}
+
+.logo-container img:hover {
+  filter: brightness(0) invert(1); /* Đảo ngược màu sắc của logo khi hover */
+}
+
+.logo-container img:active {
+  filter: brightness(0) invert(1); /* Đảo ngược màu sắc của logo khi click */
+}
+
+.navbar-link {
+  font-weight: 500;
+  color: #80e1ff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: white
+}

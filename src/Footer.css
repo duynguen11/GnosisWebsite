@@ -1,0 +1,10 @@
+.footer-bg {
+  background: linear-gradient(90deg, #80e1ff 0%, #dbffe3 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

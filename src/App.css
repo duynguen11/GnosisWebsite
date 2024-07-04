@@ -1,0 +1,44 @@
+.home-bg,
+.home-section {
+  background-color: black;
+}
+
+.home-section {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+#home {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  transition: mask-image 0.3s ease; /* Transition for mask image change */
+  cursor: pointer; /* Optional: Change cursor to pointer */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(128, 225, 255, 1)
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(128, 225, 255, 1)
+  );
+}
+
+#home:hover .img-fluid {
+  -webkit-mask-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1),
+    rgba(128, 225, 255, 1)
+  );
+  mask-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1),
+    rgba(128, 225, 255, 1)
+  );
+}
