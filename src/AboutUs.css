@@ -4,6 +4,11 @@
   background: linear-gradient(180deg, #80e1ff 50%, #dbffe3 95.06%);
   position: relative;
 }
+@media (max-width: 768px) {
+  .about-block {
+    height: 100vh;
+  }
+}
 
 .about-block::before {
   content: "";
@@ -22,14 +27,26 @@
   font-weight: 500;
   padding-bottom: 180px;
 }
+@media (max-width: 768px) {
+  .title-about {
+    padding-left: 5%; /* Điều chỉnh khoảng cách bên trái cho phù hợp */
+    font-size: 8vw; /* Điều chỉnh kích thước font cho thiết bị di động nhỏ hơn */
+    padding-bottom: 80px; /* Điều chỉnh khoảng cách phía dưới cho phù hợp */
+  }
+}
 
 .section-about {
   padding-left: 170px;
-  width: 840px;
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.2;
   font-size: 20px;
+}
+@media (max-width: 768px) {
+  .section-about {
+    padding-left: 5%; /* Xoá padding-left trên thiết bị di động */
+    font-size: 14px; /* Điều chỉnh kích thước font cho thiết bị di động nhỏ hơn */
+  }
 }
 
 .info-about blockquote {

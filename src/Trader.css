@@ -14,3 +14,15 @@
 .title-trader {
   font-size: 96px;
 }
+
+@media (max-width: 768px) {
+  .trader-side {
+    padding-left: 5%; /* Điều chỉnh khoảng cách bên trái cho phù hợp */
+    padding-top: 15%; /* Điều chỉnh khoảng cách phía trên cho phù hợp */
+    height: 100vh; /* Tự động điều chỉnh chiều cao dựa trên nội dung */
+  }
+
+  .title-trader {
+    font-size: 8vw; /* Điều chỉnh kích thước font cho thiết bị di động nhỏ hơn */
+  }
+}

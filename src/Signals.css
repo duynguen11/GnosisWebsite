@@ -9,3 +9,16 @@
 .title-signals {
   font-size: 96px;
 }
+
+/* CSS cho thiết bị di động */
+@media (max-width: 768px) {
+  .signals-side {
+    padding-top: 25%;
+    padding-left: 5%;
+    height: 100vh;
+  }
+
+  .title-signals {
+    font-size: 8vw;
+  }
+}

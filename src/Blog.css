@@ -1,5 +1,5 @@
 .blog-section {
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 65px;
 }
 
@@ -8,11 +8,17 @@
 }
 
 .title-blog {
-  padding-bottom: 90px;
-  padding-left: 50px;
+  padding-bottom: 10%;
+  padding-left: 5%;
   color: #3cd0ff;
-  font-size: 95px;
+  font-size: 96px; /* sử dụng vw để điều chỉnh kích thước font chữ */
   font-weight: 500;
+}
+@media (max-width: 768px) {
+  .title-blog {
+    padding-left: 5%; /* Điều chỉnh khoảng cách bên trái cho phù hợp */
+    font-size: 8vw; /* Điều chỉnh kích thước font cho thiết bị di động nhỏ hơn */
+  }
 }
 
 .card-item {

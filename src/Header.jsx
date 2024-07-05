@@ -25,7 +25,9 @@ function Header() {
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto bolder">
+          <Nav className="ms-auto bolder navbar-nav">
+            {" "}
+            {/* Thêm className 'navbar-nav' để áp dụng CSS */}
             <Link className="ms-4 navbar-link" to="/about-us">
               ABOUT US
             </Link>

@@ -32,7 +32,7 @@ function AboutUs() {
           </p>
         </div>
         <div className="logo-list">
-          <img src={Logolist} width="100%" height="120px" alt="rectangle-img" />
+          <img src={Logolist} width="100%" alt="rectangle-img" />
         </div>
       </div>
       <Contact />
