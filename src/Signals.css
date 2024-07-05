@@ -13,7 +13,7 @@
 /* CSS cho thiết bị di động */
 @media (max-width: 768px) {
   .signals-side {
-    padding-top: 25%;
+    padding-top: 35%;
     padding-left: 5%;
     height: 100vh;
   }

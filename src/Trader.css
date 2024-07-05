@@ -18,7 +18,7 @@
 @media (max-width: 768px) {
   .trader-side {
     padding-left: 5%; /* Điều chỉnh khoảng cách bên trái cho phù hợp */
-    padding-top: 15%; /* Điều chỉnh khoảng cách phía trên cho phù hợp */
+    padding-top: 25%; /* Điều chỉnh khoảng cách phía trên cho phù hợp */
     height: 100vh; /* Tự động điều chỉnh chiều cao dựa trên nội dung */
   }
 

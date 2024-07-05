@@ -13,7 +13,7 @@
 @media (max-width: 768px) {
   .title-contact {
     padding-left: 5%; /* Điều chỉnh khoảng cách bên trái cho phù hợp */
-    padding-top: 25%; /* Điều chỉnh khoảng cách phía trên cho phù hợp */
+    padding-top: 30%; /* Điều chỉnh khoảng cách phía trên cho phù hợp */
     font-size: 7vw; /* Điều chỉnh kích thước font cho thiết bị di động nhỏ hơn */
     height: 100vh; /* Tự động điều chỉnh chiều cao dựa trên nội dung */
   }
